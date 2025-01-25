@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Walkway";
+  src: url("/fonts/Walkway Expand Black.ttf");
+  font-style: normal;
+}
+
 :root {
   --background: #ededed;
   --foreground: #212223;
@@ -17,5 +23,11 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Walkway, Arial, Helvetica, sans-serif;
+}
+
+main {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Walkway, Arial, Helvetica, sans-serif;
 }
