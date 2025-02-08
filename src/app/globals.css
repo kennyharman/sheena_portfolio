@@ -8,13 +8,15 @@
   font-style: normal;
 }
 
+
 :root {
   --background: #ededed;
   --foreground: #212223;
   --sheena-light: #ededed;
   --sheena-dark: #212223;
   --sheena-gradient-01: linear-gradient(to right,#FF99F1, #E3B56D, #4EC9E0);
-  --sheena-gradient-02: linear-gradient(to right, rgba(255, 153, 241, 0.7), rgba(227, 181, 109, 0.7), rgba(78, 201, 224, 0.7));
+  --sheena-gradient-02: linear-gradient(to right, rgba(255, 153, 241, 0.8), rgba(227, 181, 109, 0.8), rgba(78, 201, 224, 0.8));
+  --sheena-gradient-03-glow: linear-gradient(45deg, rgba(255, 153, 241, 0.8), rgba(227, 181, 109, 0.8), rgba(78, 201, 224, 0.8));
 }
 
 @media (prefers-color-scheme: dark) {
