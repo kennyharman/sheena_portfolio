@@ -10,9 +10,9 @@ export default function Home() {
         <NavBar/>
         <div className={styles.page_content}>
           <div className={styles.main_content}>
-            <Image className={styles.logo} src={'/images/logo_no-wordmark.svg'} alt={"sheena logo"} width={800} height={800}/>
+            <Image className={styles.logo} src={'/images/logo_no-wordmark.svg'} alt={"sheena logo"} width={780} height={800}/>
               <p>
-                graphic designs • motion design • digital illustration
+                graphic design • motion design • digital illustration
               </p>
             <div className={styles.projects_button}>
               <Link href='/Projects'>

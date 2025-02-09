@@ -25,7 +25,7 @@
 
 .eden_logo {
     margin-top: 2rem;
-    opacity: 70%;
+    opacity: 50%;
 }
 
 .subhead {
@@ -50,8 +50,29 @@
     opacity: 75%;
 }
 
+.underline_02 {
+    width: 75%;
+    margin-top: 8rem;
+    border-bottom: 1px solid var(--sheena-light);
+    display: block;
+    opacity: 75%;
+}
+
+.underline_03 {
+    width:75%;
+    margin-top: 2rem;
+    border-bottom: 1px solid var(--sheena-light);
+    display: block;
+    opacity: 75%;
+}
+
 .body_content {
     margin-top: 10rem;
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .mockup {
@@ -62,3 +83,15 @@
     overflow: hidden;
 }
 
+.description {
+    width: 70%;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.posters {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 8rem;
+}

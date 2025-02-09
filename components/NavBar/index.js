@@ -9,10 +9,12 @@ export default function NavBar() {
             <div className={styles.nav_icon}>
                 <Image src={'/images/Asset13.svg'} alt={'sheena'} width={40} height={40}/>
             </div>
-            <div className={styles.wordmark}>
-                <span className={styles.wordmark_top}>sheena</span>
-                <span className={styles.wordmark_bottom} style={{fontSize: "1.145rem", letterSpacing: "0.1rem"}}>digital designs</span>
-            </div>
+            <Link className={styles.wordmark_link} href='/'>
+                <div className={styles.wordmark}>
+                    <span className={styles.wordmark_top}>sheena</span>
+                    <span className={styles.wordmark_bottom} style={{fontSize: "1.145rem", letterSpacing: "0.1rem"}}>digital designs</span>
+                </div>
+            </Link>
             <div className={styles.nav_buttons}>
                 <Link href='/'>
                     <button className={styles.nav_button}>

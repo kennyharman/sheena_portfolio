@@ -9,9 +9,19 @@ export default function Projects() {
       <main className="">
         <NavBar/>
         This is the Projects Page
+        <Link href='/Remedify'>
+          <button className={styles.button}>
+            Remedify
+          </button>
+        </Link>
         <Link href='/Eden'>
           <button className={styles.button}>
             Eden
+          </button>
+        </Link>
+        <Link href='/Ventureway'>
+          <button className={styles.button}>
+            Ventureway Cinemas
           </button>
         </Link>
       </main>
