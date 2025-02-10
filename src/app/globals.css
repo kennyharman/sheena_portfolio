@@ -3,11 +3,34 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Walkway";
-  src: url("/fonts/Walkway Expand Black.ttf");
+  font-family: "Walkway-Expand-Black";
+  src: url("/fonts/Walkway Expand Black.ttf") format("truetype");
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Walkway-Black";
+  src: url("/fonts/Walkway Black.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Walkway-Ultrabold";
+  src: url("/fonts/Walkway Ultrabold.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Walkway-Oblique-Ultrabold";
+  src: url("/fonts/Walkway Oblique Ultrabold.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Walkway-Oblique-Bold";
+  src: url("/fonts/Walkway Oblique Bold.ttf") format("truetype");
+  font-style: normal;
+}
 
 :root {
   --background: #ededed;
@@ -29,11 +52,13 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Walkway, Arial, Helvetica, sans-serif;
+  font-family: Walkway-Expand-Black, Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 
 main {
   color: var(--foreground);
   background: var(--background);
-  font-family: Walkway, Arial, Helvetica, sans-serif;
+  font-family: Walkway-Expand-Black, Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
