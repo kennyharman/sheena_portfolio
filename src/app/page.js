@@ -11,7 +11,7 @@ export default function Home() {
         <div className={styles.page_content}>
           <div className={styles.main_content}>
             <Image className={styles.logo} src={'/images/logo_no-wordmark.svg'} alt={"sheena logo"} width={780} height={800}/>
-              <p>
+              <p className={styles.titles}>
                 graphic design • motion design • digital illustration
               </p>
             <div className={styles.projects_button}>

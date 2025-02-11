@@ -84,7 +84,12 @@ export default function Remedify() {
                     <Image src="/images/down-arrow_white.svg" alt="arrow button" width={30} height={30} />
                 </button>
             </div>
+
+
             <div className={styles.problem_solution_section}>
+                <div className={styles.mockup_02}>
+                    <Image src="/images/remedify_mockup04.png" alt="remedify phone mockup" width={300} height={400} />
+                </div>
                 <div id="problem_solution" className={styles.problem_solution}>
                     <div className={styles.problem}>
                         <h2 className={styles.section_subhead_04}>
@@ -103,7 +108,17 @@ export default function Remedify() {
                         </p>
                     </div>
                 </div>
+                <button className={styles.scroll_button} onClick={() => scrollToSection("target_audience")}>
+                    <Image src="/images/down-arrow_white.svg" alt="arrow button" width={30} height={30} />
+                </button>
             </div>
+                <h2 className={styles.section_head_02}>
+                    remedify's target audience
+                </h2>
+            <div id="target_audience" className={styles.target_audience_section}>
+                
+            </div>
+            
         </main>
     );
 }
