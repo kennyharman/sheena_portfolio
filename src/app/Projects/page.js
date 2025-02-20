@@ -8,7 +8,10 @@ export default function Projects() {
     <div className="">
       <main className="">
         <NavBar/>
-        This is the Projects Page
+        <div className={styles.temp_header}>
+          This is the Projects Page <br/>
+          THIS PAGE IS UNDER DEVELOPMENT
+        </div>
         <Link href='/Remedify'>
           <button className={styles.button}>
             Remedify
@@ -17,6 +20,11 @@ export default function Projects() {
         <Link href='/Eden'>
           <button className={styles.button}>
             Eden
+          </button>
+        </Link>
+        <Link href='/DuckMilk'>
+          <button className={styles.button}>
+            Duck Milk
           </button>
         </Link>
         <Link href='/Ventureway'>

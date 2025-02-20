@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image";
+import Link from "next/link";
 import NavBar from "../../../components/NavBar";
 import styles from "./Remedify.module.css";
 
@@ -36,6 +37,8 @@ export default function Remedify() {
         requestAnimationFrame(animationStep);
     };
     
+
+
     return (
         <main className={styles.main}>
             <NavBar/>
@@ -48,6 +51,9 @@ export default function Remedify() {
             <button className={styles.scroll_button} onClick={() => scrollToSection("overview")}>
                 <Image src="/images/down-arrow_black.svg" alt="arrow button" width={30} height={30}/>
             </button>
+
+
+
             <div id="overview" className={styles.overview}>
                 <div className={styles.overview_content}>
                     <h2 className={styles.section_head}>
@@ -67,14 +73,14 @@ export default function Remedify() {
                             what is remedify?
                         </h4>
                         <p className={styles.description}>
-                            Remedify is a mobile app that leverages AI technology to help users manage complex medication schedules, providing customizable reminders and detailed drug information, ultimately enhancing health outcomes and reducing the risks associated with non-adherence.
+                            Remedify is a mobile medication reminder and information app that leverages AI technology to help users manage complex medication schedules, providing customizable reminders and detailed drug information, ultimately enhancing health outcomes and reducing the risks associated with non-adherence.
                         </p>
                     </div>
                     <h5 className={styles.section_subhead_03}>
                         <span className={styles.bold}>development tools used:</span> Expo/React Native, Kitten UI, Azure cloud functions & blob storage, Azure Computer Vision (OCR), OpenAI GPT-4o mini, Canadian Drug Product Database (DPD)
                     </h5>
                     <h5 className={styles.section_subhead_03}>
-                        <span className={styles.bold}>design tools used:</span> Adobe Illustrator, Adobe Photoshop, Adobe After Effects, Adobe Premiere Pro, Figma, Storyboarder
+                        <span className={styles.bold}>design tools used:</span> Adobe Illustrator, Adobe Photoshop, Adobe After Effects, Adobe Premiere Pro, Adobe InDesign, Figma, Storyboarder
                     </h5>
                 </div>
                 <div className={styles.mockup_01}>
@@ -84,7 +90,6 @@ export default function Remedify() {
                     <Image src="/images/down-arrow_white.svg" alt="arrow button" width={30} height={30} />
                 </button>
             </div>
-
 
             <div className={styles.problem_solution_section}>
                 <div className={styles.mockup_02}>
@@ -96,12 +101,12 @@ export default function Remedify() {
                             the problem
                         </h2>
                         <p className={styles.problem_solution_description}>
-                            Medication adherence remains a significant challenge, with patients managing chronic illnesses taking only about 50% of their prescribed medications. Misunderstanding instructions affects over 60% of patients after doctor visits, while forgetfulness leads to missed doses for nearly half (49.6%). Addressing these issues is essential to improving health outcomes and reducing risks associated with non-adherence.                    
+                            Medication adherence remains a significant challenge, with patients managing chronic illnesses taking only about <span className={styles.bold_02}>50%</span> of their prescribed medications. Misunderstanding instructions affects over <span className={styles.bold_02}>60%</span> of patients after doctor visits, while forgetfulness leads to missed doses for nearly half <span className={styles.bold_02}>(49.6%)</span>. Addressing these issues is essential to improving health outcomes and reducing risks associated with non-adherence.                    
                         </p>
                     </div>
                     <div className={styles.solution}>
                         <h2 className={styles.section_subhead_04}>
-                            the solution
+                            remedify's solution
                         </h2>
                         <p className={styles.problem_solution_description}>
                             Medication adherence is improved through structured schedules that reduce confusion and missed doses. Clear explanations provide essential details about each medication, including its purpose and proper usage. Smart reminders send timely alerts to ensure consistent intake, helping users stay on track with their treatment and manage their health more effectively.
@@ -112,13 +117,187 @@ export default function Remedify() {
                     <Image src="/images/down-arrow_white.svg" alt="arrow button" width={30} height={30} />
                 </button>
             </div>
-                <h2 className={styles.section_head_02}>
-                    remedify's target audience
-                </h2>
+            
             <div id="target_audience" className={styles.target_audience_section}>
-                
+                <h2 className={styles.section_subhead_04}>
+                    remedify's target audience
+                </h2>    
+                <div className={styles.target_audience}>
+                    <div className={styles.target_container_01}>
+                        <div className={styles.target_image_container}>
+                            <Image className={styles.target_image} src="/images/brain.svg" alt="cognitively impaired" width={200} height ={220}/>
+                        </div>
+                        <div className={styles.target_content}>
+                            <h3 className={styles.section_subhead_02}>
+                                cognitively impaired
+                            </h3>
+                            <p className={styles.target_text}>
+                                Remedify’s intuitive reminders help users with cognitive challenges remember their medications, supporting confidence, education, and routine.
+                            </p>
+                        </div>
+                    </div>
+                    <div className={styles.target_container_02}>
+                        <div className={styles.target_content_02}>
+                            <h3 className={styles.section_subhead_02_alt}>
+                                polypharmacy & caregivers
+                            </h3>
+                            <p className={styles.target_text}>
+                                Remedify’s intuitive reminders help users with cognitive challenges remember their medications, supporting confidence, education, and routine.
+                            </p>
+                        </div>
+                        <div className={styles.target_image_container_02}>
+                            <Image className={styles.target_image} src="/images/hand.svg" alt="cognitively impaired" width={200} height ={220}/>
+                        </div>
+                    </div>
+                    
+                </div>
+                <button className={styles.scroll_button_02} onClick={() => scrollToSection("features")}>
+                    <Image src="/images/down-arrow_white.svg" alt="arrow button" width={30} height={30} />
+                </button>
             </div>
             
+            <div id="features" className={styles.features_section}>
+                <h2 className={styles.section_subhead_04_alt}>
+                    features
+                </h2>
+                <div className={styles.features_container}>
+                    <div className={styles.features_content}>
+                        <h3 className={styles.section_subhead_05}>
+                            AI-powered label scanning
+                        </h3>
+                        <p className={styles.feature_description}>
+                            Easily scan your medication labels to set up reminders automatically, minimizing the steps you need to remember and simplifying the process.
+                        </p>
+                    </div>
+                    <div className={styles.features_image_container}>
+                        <Image className={styles.features_image} src="/images/remedify_mockup05.png" alt="remedify phone mockup" width={220} height={200}/>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="research" className={styles.research_section}>
+                <div className={styles.document_container}>
+                    <iframe 
+                        src="https://docs.google.com/document/d/1MGyxeF7pkwpVo4VsNl829hrDaSTTYn5Frfa2RREm4Nc/edit?tab=t.0embedded=true" 
+                        className={styles.document}
+                        width="1200"
+                        height="1000">
+                        Loading…
+                    </iframe>
+                </div>
+                <div className={styles.research_content_container}>
+                    <div className={styles.research_content}>
+                        <h2 className={styles.section_subhead_04}>
+                            user research
+                        </h2>
+                        <p className={styles.research_description}>
+                            Thorough secondary research was conducted through surveys, interviews, articles and other existing user research. This research was done to further enhance our insight on the target demographic and lead to further development of our app. Through this research we identified commonalities between the user’s wants and needs, information on medication adherence and ways to improve medication routine practices.<br/><br/>
+
+                            Research identifies key challenges in medication adherence, including forgetfulness, lack of awareness, complex regimens, and accessibility barriers. Solutions include engaging reminders, clear medication insights, and customizable alerts to improve adherence. Accessibility features like large fonts and voice assistance enhance inclusivity, while a streamlined, visual approach simplifies tracking. A user-centered design with personalization ensures intuitive and effective medication management for both patients and caregivers.
+                        </p>
+                        <Link href="https://docs.google.com/document/d/1MGyxeF7pkwpVo4VsNl829hrDaSTTYn5Frfa2RREm4Nc/edit?tab=t.0" alt="remedify research document" target="_blank">
+                            <button className={styles.document_button}>
+                                view full research document
+                            </button>
+                        </Link>
+                    </div>
+                </div>
+            </div>
+
+            <div className={styles.comp_analysis_section}>
+                <div className={styles.comp_analysis_content}>
+                    <h2 className={styles.section_subhead_04}>
+                        competitive analysis
+                    </h2>
+                    <p className={styles.comp_analysis_description}>
+                    A competitive analysis of existing medication management apps was conducted to identify strengths, weaknesses, and gaps in the market. By evaluating both medical and non-medical applications, key insights were gathered to enhance accessibility, usability, and AI functionality. This analysis informed the development of Remedify, ensuring a user-centered design that addresses pain points and improves medication adherence through refined features and intelligent solutions.
+                    </p>
+                </div>
+                <div className={styles.comp_analysis_frames}>
+                    <div className={styles.comp_analysis_container}>
+                        <h3 className={styles.bold}>
+                            UI focused analysis
+                        </h3>
+                        <iframe 
+                            className={styles.comp_analysis}
+                            width="800" 
+                            height="450" 
+                            src="https://embed.figma.com/board/RPakjzn6MwY3XnhFeZmWyf/Competitive-Analysis-(UI-Focused)?node-id=0-1&embed-host=share" 
+                            allowFullScreen>
+                        </iframe>
+                    </div>
+                    <div className={styles.comp_analysis_container}>
+                        <h3 className={styles.bold_alt}>
+                            in-depth analysis
+                        </h3>
+                        <iframe 
+                            className={styles.comp_analysis}
+                            width="800" 
+                            height="450" 
+                            src="https://embed.figma.com/board/WK9WoDPIFcwGfjfifl3ZOr/Competitive-Analysis-(Latest-Ver.)?node-id=0-1&embed-host=share" 
+                            allowFullScreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div className={styles.persona_section}>
+                <div className={styles.persona_container}>
+                <iframe 
+                    className={styles.personas}
+                    width="500" 
+                    height="450" 
+                    src="https://embed.figma.com/proto/eqiBsR991DWqKMuktHQb1P/Persona?page-id=64%3A4&node-id=162-195&p=f&viewport=387%2C336%2C0.27&scaling=min-zoom&content-scaling=fixed&embed-host=share" 
+                    allowFullScreen>
+                </iframe>
+                </div>
+            </div>
+
+            <div className={styles.comp_analysis_section}>
+                <div className={styles.comp_analysis_content}>
+                    <h2 className={styles.section_subhead_04}>
+                        wireframing
+                    </h2>
+                    <p className={styles.comp_analysis_description}>
+                    A competitive analysis of existing medication management apps was conducted to identify strengths, weaknesses, and gaps in the market. By evaluating both medical and non-medical applications, key insights were gathered to enhance accessibility, usability, and AI functionality. This analysis informed the development of Remedify, ensuring a user-centered design that addresses pain points and improves medication adherence through refined features and intelligent solutions.
+                    </p>
+                </div>
+                <div className={styles.comp_analysis_frames}>
+                    <div className={styles.comp_analysis_container}>
+                        <h3 className={styles.bold}>
+                            lo-fi wireframes
+                        </h3>
+                        <iframe 
+                            className={styles.comp_analysis}
+                            width="800" 
+                            height="450" 
+                            src="https://embed.figma.com/design/lbLaPFGzOxiCvLbD18gxEl/Remedify-Wireframe?node-id=340-5993&embed-host=share" 
+                            allowFullScreen>
+                        </iframe>
+                    </div>
+                    <div className={styles.comp_analysis_container}>
+                        <h3 className={styles.bold_alt}>
+                            hi-fi wireframes
+                        </h3>
+                        <iframe 
+                            className={styles.comp_analysis}
+                            width="800" 
+                            height="450" 
+                            src="https://embed.figma.com/design/lbLaPFGzOxiCvLbD18gxEl/Remedify-Wireframe?node-id=1797-14184&embed-host=share" 
+                            allowFullScreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div className={styles.under_construction}>
+                <h2 className={styles.section_subhead_04}>
+                    more project details soon to be added
+                </h2>
+                <h3 className={styles.section_subhead_02}>
+                    this page is under development
+                </h3>
+            </div>
         </main>
     );
 }
