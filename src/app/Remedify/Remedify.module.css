@@ -228,10 +228,10 @@ OVERVIEW SECTION
 
 .mockup_01 {
     position: absolute;
-    right: 15rem; /* Adjust this value to control how far right it sits */
+    right: 15rem; 
     top: 50%;
     transform: translateY(-50%);
-    max-width: 40%; /* Ensures it doesn't shrink too much */
+    max-width: 40%; 
     padding-bottom: 2rem;
 }
 
@@ -527,7 +527,7 @@ COMPETITIVE ANALYSIS SECTION
 }
 
 .comp_analysis {
-    width: 45%;
+    width: 33%;
 }
 
 .comp_analysis_subhead {
@@ -560,7 +560,7 @@ COMPETITIVE ANALYSIS SECTION
 
 /*
 =========================================================================================================================================================================================================================
-COMPETITIVE ANALYSIS SECTION
+WIREFRAME SECTION
 =========================================================================================================================================================================================================================
 */
 
@@ -568,4 +568,30 @@ COMPETITIVE ANALYSIS SECTION
 .iframe {
     width: 50%;
     height: 100%;
+}
+
+/*
+=========================================================================================================================================================================================================================
+STYLEGUIDE SECTION
+=========================================================================================================================================================================================================================
+*/
+
+.styleguide_section {
+    padding: 4rem 4rem;
+}
+
+.styleguide_container {
+    display: flex;
+    justify-content: space-around;
+    gap: 6rem;
+}
+
+.styleguide_content {
+    width: 40%;
+}
+
+.styleguide_description {
+    font-family: Walkway-Ultrabold, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-top: 3rem;
 }

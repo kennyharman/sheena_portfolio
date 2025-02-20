@@ -269,7 +269,7 @@ export default function Remedify() {
                         </h3>
                         <iframe 
                             className={styles.comp_analysis}
-                            width="800" 
+                            width="400" 
                             height="450" 
                             src="https://embed.figma.com/design/lbLaPFGzOxiCvLbD18gxEl/Remedify-Wireframe?node-id=340-5993&embed-host=share" 
                             allowFullScreen>
@@ -281,11 +281,34 @@ export default function Remedify() {
                         </h3>
                         <iframe 
                             className={styles.comp_analysis}
-                            width="800" 
+                            width="400" 
                             height="450" 
                             src="https://embed.figma.com/design/lbLaPFGzOxiCvLbD18gxEl/Remedify-Wireframe?node-id=1797-14184&embed-host=share" 
                             allowFullScreen>
                         </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div className={styles.styleguide_section}>
+                <div className={styles.styleguide_container}>
+                    <div className={styles.styleguide_content}>
+                        <h2 className={styles.section_subhead_04}>
+                            remedify styleguide
+                        </h2>
+                        <p className={styles.styleguide_description}>
+                            The Remedify app's style guide was developed to align with its mission of helping users manage their health and medications in a way that feels warm, calming, and accessible. <br/><br/>
+                            The design process focused on creating a welcoming experience, drawing inspiration from familiar healthcare imagery while ensuring a sense of comfort. The color palette was chosen to evoke warmth and reassurance, reminiscent of sunsets and medication packaging. <br/><br/>
+                            The logo went through multiple iterations, starting with the Rod of Asclepius as a foundation and evolving to incorporate reminder-related imagery in a simple, approachable way. This emphasis on clarity and friendliness carried through the entire design, from the rounded buttons to the choice of sans-serif fonts, reinforcing an intuitive and inclusive experience.
+                        </p>
+                    </div>
+                    <div className={styles.styleguide_image_container}>
+                        <Image 
+                        className={styles.styleguide_image}
+                        src="/images/remedifyStyleguide.png"
+                        alt="remedify styleguide"
+                        width="540"
+                        height="1080"/>
                     </div>
                 </div>
             </div>
