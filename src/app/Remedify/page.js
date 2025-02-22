@@ -303,12 +303,13 @@ export default function Remedify() {
                         </p>
                     </div>
                     <div className={styles.styleguide_image_container}>
-                        <Image 
+                        <img
                         className={styles.styleguide_image}
                         src="/images/remedifyStyleguide.png"
                         alt="remedify styleguide"
                         width="540"
-                        height="1080"/>
+                        height="1080"
+                        target="_blank"/>
                     </div>
                 </div>
             </div>

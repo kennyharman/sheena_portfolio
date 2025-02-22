@@ -595,3 +595,7 @@ STYLEGUIDE SECTION
     font-size: 18px;
     padding-top: 3rem;
 }
+
+.styleguide_image {
+    border-radius: 6px;
+}
