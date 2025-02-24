@@ -754,11 +754,12 @@ LOGO SECTION
 
 .logo_content {
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
 .logo_description_container {
-    width: 80%;
+    width: 100%;
 }
 
 .logo_description {
@@ -766,6 +767,6 @@ LOGO SECTION
     font-size: 18px;
 }
 
-.logo_container {
-    margin-right: 8rem;
+.logo_images_container {
+    display: flex;
 }

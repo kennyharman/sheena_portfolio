@@ -408,8 +408,66 @@ export default function Remedify() {
                 <div className={styles.logo_content}>
                     <div className={styles.logo_description_container}>
                         <p className={styles.logo_description}>
-                        The Remedify logo was designed to merge symbols of health and reminders into a single, cohesive mark. After several iterations, the final concept features an exclamation point for alerts, with a snake winding up its length to evoke the Rod of Asclepius, a nationally known symbol of health and. Simple shapes and white space techniques create depth while keeping the design minimal and friendly. The logo is unified by Remedify’s teal and sunset-inspired color palette, reinforcing warmth, trust, and accessibility.
+                            The Remedify logo was designed to merge symbols of health and reminders into a single, cohesive mark. After several iterations, the final concept features an exclamation point for alerts, with a snake winding up its length to evoke the Rod of Asclepius, a nationally known symbol of health and. Simple shapes and white space techniques create depth while keeping the design minimal and friendly. The logo is unified by Remedify’s teal and sunset-inspired color palette, reinforcing warmth, trust, and accessibility.
                         </p>
+                    </div>
+                    <div className={styles.logo_images_container}>
+                        <Image
+                        className={styles.logo}
+                        src="/images/remedify-logo_01.svg"
+                        alt="remedify logo 01"
+                        width={100}
+                        height={100}
+                        />
+                        <Image
+                        className={styles.logo}
+                        src="/images/remedify-logo_02.svg"
+                        alt="remedify logo 02"
+                        width={100}
+                        height={100}
+                        />
+                        <Image
+                        className={styles.logo}
+                        src="/images/remedify-logo_03.svg"
+                        alt="remedify logo 03"
+                        width={100}
+                        height={100}
+                        />
+                        <Image
+                        className={styles.logo}
+                        src="/images/remedify-logo_04.svg"
+                        alt="remedify logo 04"
+                        width={100}
+                        height={100}
+                        />
+                        <Image
+                        className={styles.logo}
+                        src="/images/remedify-logo_05.svg"
+                        alt="remedify logo 05"
+                        width={100}
+                        height={100}
+                        />
+                        <Image
+                        className={styles.logo}
+                        src="/images/remedify-logo_06.svg"
+                        alt="remedify logo 06"
+                        width={100}
+                        height={100}
+                        />
+                        <Image
+                        className={styles.logo}
+                        src="/images/remedify-logo_07.svg"
+                        alt="remedify logo 07"
+                        width={100}
+                        height={100}
+                        />
+                        <Image
+                        className={styles.logo}
+                        src="/images/remedify-logo_final.svg"
+                        alt="finally remedify logo"
+                        width={100}
+                        height={100}
+                        />
                     </div>
                 </div>
             </div>
