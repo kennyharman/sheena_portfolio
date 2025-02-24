@@ -1,10 +1,10 @@
 .main {
-    background-image: url("/images/eden_transparent2.png");
-    background-size: cover;
-    background-position: center 80px; 
+    background-image: url("/images/duckmilkbackgroundclear.png");
+    background-position: center 20px; 
+    background-size:contain;
     background-repeat: no-repeat;
     min-height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .content {
@@ -12,6 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 24rem;
 }
 
 .header {
@@ -32,6 +33,11 @@
     margin-top: 4rem;
     font-size: 2rem;
     text-align: center;
+    color: var(--sheena-dark);
+}
+
+.software {
+    color: var(--sheena-dark);
 }
 
 .info {
@@ -47,7 +53,7 @@
 .underline {
     width: 85%;
     margin-top: 4.5rem;
-    border-bottom: 1px solid var(--sheena-light);
+    border-bottom: 1px solid var(--sheena-dark);
     opacity: 75%;
 }
 

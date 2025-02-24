@@ -8,7 +8,7 @@
     width: 100%;
     height: 6.8rem;
     z-index: 1000;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid var(--sheena-light-transparent);
     padding: 0 2rem; 
 }
 

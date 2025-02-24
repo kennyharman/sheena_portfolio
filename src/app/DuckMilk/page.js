@@ -10,7 +10,6 @@ export default function DuckMilk() {
                 <h1 className={styles.header}>
                     
                 </h1>
-                <Image className={styles.eden_logo} src="/images/eden_logo.svg" alt="eden logo" width={100} height={100}/>
                 <div className={styles.info}>
                     <h2 className={styles.subhead}>
                         beverage can mockup series

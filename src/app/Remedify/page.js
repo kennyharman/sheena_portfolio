@@ -314,6 +314,107 @@ export default function Remedify() {
                 </div>
             </div>
 
+            <div className={styles.color_palette_section}>
+                <div className={styles.color_palette_head_container}>
+                    <h2 className={styles.section_subhead_04}>
+                        color palette
+                    </h2>
+                </div>
+                <div className={styles.color_palette_content}>
+                    <div className={styles.palette_tile_container}>
+                        <div className={styles.palette_tile} style={{ backgroundColor: "#007972" }}>
+                            <div className={styles.tile_text}>
+                                <h5 className={styles.tile_color_name}>
+                                    pine green
+                                </h5>
+                                <p className={styles.tile_color_code}>
+                                    rgb (0, 121, 114)
+                                </p>
+                                <p className={styles.tile_color_code}>
+                                    #007972
+                                </p>
+                            </div>
+                        </div>
+                        <div className={styles.palette_tile} style={{ backgroundColor: "#89CCC8" }}>
+                            <div className={styles.tile_text}>
+                                <h5 className={styles.tile_color_name_02}>
+                                    light green
+                                </h5>
+                                <p className={styles.tile_color_code_02}>
+                                    rgb (137, 204, 200)
+                                </p>
+                                <p className={styles.tile_color_code_02}>
+                                    #89CCC8
+                                </p>
+                            </div>
+                        </div>
+                        <div className={styles.palette_tile} style={{ backgroundColor: "#FFD08B" }}>
+                            <div className={styles.tile_text}>
+                                <h5 className={styles.tile_color_name_03}>
+                                    sunset
+                                </h5>
+                                <p className={styles.tile_color_code_03}>
+                                    rgb (255, 208, 139)  
+                                </p>
+                                <p className={styles.tile_color_code_03}>
+                                    #FFD08B
+                                </p>
+                            </div>
+                        </div>
+                        <div className={styles.palette_tile} style={{ backgroundColor: "#D9EDFF" }}>
+                            <div className={styles.tile_text}>
+                                <h5 className={styles.tile_color_name_04}>
+                                    light blue
+                                </h5>
+                                <p className={styles.tile_color_code_04}>
+                                    rgb (217, 237, 255)
+                                </p>
+                                <p className={styles.tile_color_code_04}>
+                                    #D9EDFF
+                                </p>
+                            </div>
+                        </div>
+                        <div className={styles.palette_tile} style={{ backgroundColor: "#FAF8FE" }}>
+                            <div className={styles.tile_text}>
+                                <h5 className={styles.tile_color_name_05}>
+                                    silver white
+                                </h5>
+                                <p className={styles.tile_color_code_05}>
+                                    rgb (250, 248, 254)
+                                </p>
+                                <p className={styles.tile_color_code_05}>
+                                    #FAF8FE
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.color_palette_description}>
+                        <p className={styles.palette_description_text}>
+                            The color palette is designed to create a balance between vibrancy and calm, enhancing both visual appeal and usability. Warm oranges introduce energy and positivity, making the interface feel inviting and engaging. In contrast, light green and blue provide a sense of calm and reassurance, reinforcing the app’s focus on health and well-being. A neutral silver-white background adds a layer of simplicity and cleanliness, ensuring that the primary and secondary colors stand out without overwhelming the user. This thoughtful combination creates a visual synergy that is both approachable and functional, promoting clarity while maintaining a welcoming atmosphere.
+                        </p>
+                    </div>
+                    <button className={styles.scroll_button_02} onClick={() => scrollToSection("logo")}>
+                    <Image src="/images/down-arrow_white.svg" alt="arrow button" width={30} height={30} />
+                </button>
+                </div>
+            </div>
+
+            <div className={styles.logo_section} id="logo">
+                <div className={styles.logo_head_container}>
+                    <h2 className={styles.section_subhead_04}>
+                        remedify's logo
+                    </h2>
+                </div>
+                <div className={styles.logo_content}>
+                    <div className={styles.logo_description_container}>
+                        <p className={styles.logo_description}>
+                        The Remedify logo was designed to merge symbols of health and reminders into a single, cohesive mark. After several iterations, the final concept features an exclamation point for alerts, with a snake winding up its length to evoke the Rod of Asclepius, a nationally known symbol of health and. Simple shapes and white space techniques create depth while keeping the design minimal and friendly. The logo is unified by Remedify’s teal and sunset-inspired color palette, reinforcing warmth, trust, and accessibility.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            
             <div className={styles.under_construction}>
                 <h2 className={styles.section_subhead_04}>
                     more project details soon to be added

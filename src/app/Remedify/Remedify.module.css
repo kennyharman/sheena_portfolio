@@ -1,7 +1,7 @@
 .main {
     background-image: url("/images/remedify_background.png");
     background-size: cover;
-    background-position: center -160rem; 
+    background-position: center -200rem; 
     background-repeat: no-repeat;
     min-height: 100vh;
     width: 100vw;
@@ -598,4 +598,174 @@ STYLEGUIDE SECTION
 
 .styleguide_image {
     border-radius: 6px;
+}
+
+/*
+=========================================================================================================================================================================================================================
+COLOR PALETTE SECTION
+=========================================================================================================================================================================================================================
+*/
+
+.color_palette_section {
+    margin: 0rem;
+}
+
+.color_palette_head_container {
+    margin-bottom: 3rem;
+    margin-left: 6rem;
+}
+
+.color_palette_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.palette_tile_container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin: 0 2rem;
+}
+
+.palette_tile {
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 100%;
+    margin-left: -5rem;
+}
+
+.palette_tile:first-child {
+    margin-left: 0;
+}
+
+.tile_text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+
+.tile_color_name {
+    color: var(--sheena-light);
+    font-family: Walkway-Black, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+    opacity: 85%;
+}
+
+.tile_color_name_02 {
+    color: var(--sheena-dark);
+    font-family: Walkway-Black, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+    opacity: 50%;
+}
+
+.tile_color_name_03 {
+    color: var(--sheena-dark);
+    font-family: Walkway-Black, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+    opacity: 55%;
+}
+
+.tile_color_name_04 {
+    color: var(--sheena-dark);
+    font-family: Walkway-Black, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+    opacity: 65%;
+}
+
+.tile_color_name_05 {
+    color: var(--sheena-dark);
+    font-family: Walkway-Black, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+    opacity: 85%;
+}
+
+.tile_color_code {
+    font-family: Walkway-Ultrabold, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    opacity: 75%;
+}
+
+.tile_color_code_02 {
+    color: var(--sheena-dark);
+    font-family: Walkway-Ultrabold, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    opacity: 40%;
+}
+
+.tile_color_code_03 {
+    color: var(--sheena-dark);
+    font-family: Walkway-Ultrabold, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    opacity: 45%;
+}
+
+.tile_color_code_04 {
+    color: var(--sheena-dark);
+    font-family: Walkway-Ultrabold, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    opacity: 55%;
+}
+
+.tile_color_code_05 {
+    color: var(--sheena-dark);
+    font-family: Walkway-Ultrabold, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    opacity: 65%;
+}
+
+.palette_tile:first-child {
+    margin-left: 0;
+}
+
+.color_palette_description {
+    font-family: Walkway-UltraBold, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 85%;
+}
+
+
+/*
+=========================================================================================================================================================================================================================
+LOGO SECTION
+=========================================================================================================================================================================================================================
+*/
+
+.logo_section {
+    margin: 4rem 6.5rem;
+}
+
+.logo_head_container {
+    margin-bottom: 2rem;
+}
+
+.logo_content {
+    display: flex;
+    align-items: center;
+}
+
+.logo_description_container {
+    width: 80%;
+}
+
+.logo_description {
+    font-family: Walkway-Ultrabold, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.logo_container {
+    margin-right: 8rem;
 }
