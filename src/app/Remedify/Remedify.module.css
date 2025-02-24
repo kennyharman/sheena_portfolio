@@ -1,7 +1,7 @@
 .main {
     background-image: url("/images/remedify_background.png");
     background-size: cover;
-    background-position: center -200rem; 
+    background-position: center -240rem; 
     background-repeat: no-repeat;
     min-height: 100vh;
     width: 100vw;
@@ -593,6 +593,7 @@ STYLEGUIDE SECTION
 .styleguide_description {
     font-family: Walkway-Ultrabold, Arial, Helvetica, sans-serif;
     font-size: 18px;
+    letter-spacing: 1px;
     padding-top: 3rem;
 }
 
@@ -760,13 +761,97 @@ LOGO SECTION
 
 .logo_description_container {
     width: 100%;
+    margin-bottom: 4rem;
 }
 
 .logo_description {
     font-family: Walkway-Ultrabold, Arial, Helvetica, sans-serif;
     font-size: 18px;
+    letter-spacing: 1px;
+    width: 100%;
+    padding-right: 5rem;
 }
 
 .logo_images_container {
+    display: inline-block;
+    gap: 2rem;
+    width: 100vw;
+}
+
+.logo {
+    display: inline-block;
+    margin-left: -1rem;
+    filter: drop-shadow(8px 22px 16px rgba(0, 0, 0, 0.3));
+}
+
+.logo:first-child{
+    margin-left: 6rem;
+}
+
+/*
+=========================================================================================================================================================================================================================
+TYPOGRAPHY SECTION
+=========================================================================================================================================================================================================================
+*/
+
+.typography_section {
+    margin: 4rem 6.5rem;
+}
+
+.typography_content {
+    margin-top: 2rem;
     display: flex;
+    flex-direction: column;
+    opacity: 70%;
+}
+
+/*
+=========================================================================================================================================================================================================================
+ICONOGRAPHY SECTION
+=========================================================================================================================================================================================================================
+*/
+
+.iconography_section {
+    margin: 4rem 6.5rem;
+}
+
+.iconography_content {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    opacity: 70%;
+}
+
+/*
+=========================================================================================================================================================================================================================
+MARKETING SECTION
+=========================================================================================================================================================================================================================
+*/
+
+.marketing_section {
+    margin: 4rem 6.5rem;
+}
+
+.marketing_content {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    opacity: 70%;
+}
+
+/*
+=========================================================================================================================================================================================================================
+MOTION SECTION
+=========================================================================================================================================================================================================================
+*/
+
+.motion_section {
+    margin: 4rem 6.5rem;
+}
+
+.motion_content {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    opacity: 70%;
 }

@@ -408,7 +408,7 @@ export default function Remedify() {
                 <div className={styles.logo_content}>
                     <div className={styles.logo_description_container}>
                         <p className={styles.logo_description}>
-                            The Remedify logo was designed to merge symbols of health and reminders into a single, cohesive mark. After several iterations, the final concept features an exclamation point for alerts, with a snake winding up its length to evoke the Rod of Asclepius, a nationally known symbol of health and. Simple shapes and white space techniques create depth while keeping the design minimal and friendly. The logo is unified by Remedify’s teal and sunset-inspired color palette, reinforcing warmth, trust, and accessibility.
+                            The Remedify logo was designed to merge symbols of health and reminders into a single, cohesive mark. After several iterations created by several members of the design team, the final concept features an exclamation point for alerts, with a snake winding up its length to evoke the Rod of Asclepius, a nationally known symbol of health and medicine. Simple shapes and white space techniques create depth while keeping the design minimal and friendly. The logo is unified by Remedify’s teal and sunset-inspired color palette, reinforcing warmth, trust, and accessibility.
                         </p>
                     </div>
                     <div className={styles.logo_images_container}>
@@ -416,71 +416,126 @@ export default function Remedify() {
                         className={styles.logo}
                         src="/images/remedify-logo_01.svg"
                         alt="remedify logo 01"
-                        width={100}
+                        width={110}
                         height={100}
                         />
                         <Image
                         className={styles.logo}
                         src="/images/remedify-logo_02.svg"
                         alt="remedify logo 02"
-                        width={100}
+                        width={120}
                         height={100}
                         />
                         <Image
                         className={styles.logo}
                         src="/images/remedify-logo_03.svg"
                         alt="remedify logo 03"
-                        width={100}
+                        width={130}
                         height={100}
                         />
                         <Image
                         className={styles.logo}
                         src="/images/remedify-logo_04.svg"
                         alt="remedify logo 04"
-                        width={100}
+                        width={140}
                         height={100}
                         />
                         <Image
                         className={styles.logo}
                         src="/images/remedify-logo_05.svg"
                         alt="remedify logo 05"
-                        width={100}
+                        width={160}
                         height={100}
                         />
                         <Image
                         className={styles.logo}
                         src="/images/remedify-logo_06.svg"
                         alt="remedify logo 06"
-                        width={100}
+                        width={200}
                         height={100}
                         />
                         <Image
                         className={styles.logo}
                         src="/images/remedify-logo_07.svg"
                         alt="remedify logo 07"
-                        width={100}
+                        width={240}
                         height={100}
                         />
                         <Image
                         className={styles.logo}
                         src="/images/remedify-logo_final.svg"
                         alt="finally remedify logo"
-                        width={100}
+                        width={280}
                         height={100}
                         />
                     </div>
                 </div>
             </div>
 
-            
-            <div className={styles.under_construction}>
-                <h2 className={styles.section_subhead_04}>
-                    more project details soon to be added
-                </h2>
-                <h3 className={styles.section_subhead_02}>
-                    this page is under development
-                </h3>
+            <div className={styles.typography_section}>
+                <div className={styles.typography_head_container}>
+                    <h2 className={styles.section_subhead_04}>
+                        typography
+                    </h2>
+                </div>
+                <div className={styles.typography_content}>
+                    <h2 className={styles.section_subhead_02}>
+                        details to be added soon
+                    </h2>
+                    <h3 className={styles.section_subhead_02}>
+                        this section is under development
+                    </h3>
+                </div>
             </div>
+
+            <div className={styles.iconography_section}>
+                <div className={styles.iconography_head_container}>
+                    <h2 className={styles.section_subhead_04}>
+                        iconography
+                    </h2>
+                </div>
+                <div className={styles.iconography_content}>
+                    <h2 className={styles.section_subhead_02}>
+                        details to be added soon
+                    </h2>
+                    <h3 className={styles.section_subhead_02}>
+                        this section is under development
+                    </h3>
+                </div>
+            </div>
+
+            <div className={styles.marketing_section}>
+                <div className={styles.marketing_head_container}>
+                    <h2 className={styles.section_subhead_04}>
+                        marketing materials
+                    </h2>
+                </div>
+                <div className={styles.marketing_content}>
+                    <h2 className={styles.section_subhead_02}>
+                        details to be added soon
+                    </h2>
+                    <h3 className={styles.section_subhead_02}>
+                        this section is under development
+                    </h3>
+                </div>
+            </div>
+
+            <div className={styles.motion_section}>
+                <div className={styles.motion_head_container}>
+                    <h2 className={styles.section_subhead_04}>
+                        motion design
+                    </h2>
+                </div>
+                <div className={styles.motion_content}>
+                    <h2 className={styles.section_subhead_02}>
+                        details to be added soon
+                    </h2>
+                    <h3 className={styles.section_subhead_02}>
+                        this section is under development
+                    </h3>
+                </div>
+            </div>
+            
         </main>
     );
 }
