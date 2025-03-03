@@ -8,9 +8,10 @@ export default function Projects() {
     <div className="">
       <main className="">
         <NavBar/>
-        <div className={styles.temp_header}>
-          This is the Projects Page <br/>
-          THIS PAGE IS UNDER DEVELOPMENT
+        <div className={styles.page_head}>
+          <h1>
+            projects
+          </h1>
         </div>
         <Link href='/Remedify'>
           <button className={styles.button}>

@@ -2,7 +2,10 @@
     display: flex;
 }
 
-.temp_header {
-    margin-bottom: 2rem;
-    font-size: 2rem;
+.page_head {
+    display: flex;
+    justify-content: center;
+    font-size: 140px;
+    letter-spacing: 4px;
+    opacity: 80%;
 }

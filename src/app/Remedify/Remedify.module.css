@@ -407,13 +407,14 @@ FEATURES SECTION
 .features_section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 3rem 0;
+    height: 100vh;
 }
 
 .features_container {
     display: flex;
     align-items: center;
+    gap: 4rem;
+    padding-top: 4rem;
 }
 
 .features_content {
@@ -422,7 +423,6 @@ FEATURES SECTION
     align-items: flex-end;
     justify-content: center;
     width: 50%;
-    height: 100vh;
     text-align: right;
     padding-left: 26rem;
 }
@@ -436,6 +436,7 @@ FEATURES SECTION
     letter-spacing: 1.8px;    
     font-size: 18px;
     line-height: 1.5rem;
+    width: 35vw;
 }
 
 /*
@@ -448,6 +449,7 @@ RESEARCH SECTION
     display: flex;
     flex-direction: row;
     padding: 2rem 12rem;
+    height: 100vh;
 }
 
 .document_container {
@@ -632,11 +634,29 @@ COLOR PALETTE SECTION
 }
 
 .palette_tile {
+    position: relative;
     width: 280px;
     height: 280px;
     display: inline-block;
     border-radius: 100%;
     margin-left: -5rem;
+    border: 1.5px solid #89CCC8;
+}
+
+.palette_tile:nth-child(2) {
+    border: 1.5px solid var(--sheena-light);
+}
+
+.palette_tile:nth-child(3) {
+    border: 1.5px solid #BB9356;
+}
+
+.palette_tile:nth-child(4) {
+    border: 1.5px solid #6383A0;
+}
+
+.palette_tile:nth-child(5) {
+    border: 1.5px solid var(--sheena-dark); 
 }
 
 .palette_tile:first-child {
@@ -769,7 +789,7 @@ LOGO SECTION
     font-size: 18px;
     letter-spacing: 1px;
     width: 100%;
-    padding-right: 5rem;
+    padding-right: 6rem;
 }
 
 .logo_images_container {

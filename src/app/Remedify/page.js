@@ -170,7 +170,7 @@ export default function Remedify() {
                         </p>
                     </div>
                     <div className={styles.features_image_container}>
-                        <Image className={styles.features_image} src="/images/remedify_mockup05.png" alt="remedify phone mockup" width={220} height={200}/>
+                        <Image className={styles.features_image} src="/images/remedify_mockup05.png" alt="remedify phone mockup" width={300} height={200}/>
                     </div>
                 </div>
             </div>
@@ -416,7 +416,7 @@ export default function Remedify() {
                         className={styles.logo}
                         src="/images/remedify-logo_01.svg"
                         alt="remedify logo 01"
-                        width={110}
+                        width={100}
                         height={100}
                         />
                         <Image
@@ -535,7 +535,7 @@ export default function Remedify() {
                     </h3>
                 </div>
             </div>
-            
+
         </main>
     );
 }
