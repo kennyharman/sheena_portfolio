@@ -33,6 +33,11 @@ export default function Projects() {
             Ventureway Cinemas
           </button>
         </Link>
+        <Link href='/SolarSystem'>
+          <button className={styles.button}>
+            How the Solar System Formed
+          </button>
+        </Link>
       </main>
       <footer className="">
 
