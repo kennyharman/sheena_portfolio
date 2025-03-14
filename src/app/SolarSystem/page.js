@@ -21,7 +21,7 @@ export default function SolarSystem() {
                     </span>
                 </div>
                 <div className={styles.body_content}>
-
+                    <video className={styles.mockups} src="/videos/FinalProject.mp4" width={1000} height={800} controls></video>
                     <h3 className={styles.disclaimer_head}>
                         disclaimer
                     </h3>
