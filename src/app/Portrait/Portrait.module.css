@@ -1,0 +1,52 @@
+.content {
+    display: flex;
+    gap: 2rem;
+    padding-left: 2rem;
+}
+
+.portrait_content {
+    text-align: right;
+    padding-top: 3rem;
+}
+
+.portrait_header {
+    font-size: 102px;
+    letter-spacing: 2px;
+}
+
+.portrait_subhead {
+    font-size: 40px;
+    line-height: 2.5rem;
+}
+
+.portrait_software {
+    font-size: 24px;
+    opacity: 80%;
+    margin-top: 0.5rem;
+}
+
+.portrait_content{
+    width: 50%;
+}
+
+.portrait_description {
+    font-size: 16px;
+    padding-left: 10rem;
+    margin-top: 3rem;
+    font-family: Walkway-UltraBold, Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+.portrait_image_container {
+    padding: 4rem;
+}
+
+.underline {
+    display: block;
+    width: 80%;
+    height: 1px; /* Gives the element a visible height */
+    background-color: var(--sheena-light); /* Instead of border-bottom */
+    opacity: 75%;
+    margin: 2rem;
+    margin-left: 9.6rem; /* Centers it if needed */
+}

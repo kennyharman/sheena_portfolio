@@ -21,17 +21,12 @@ export default function SolarSystem() {
                     </span>
                 </div>
                 <div className={styles.body_content}>
-                    <video className={styles.mockups} src="/videos/space.mp4" width={1000} height={800} controls></video>
-                    <h3 className={styles.disclaimer_head}>
-                        disclaimer
-                    </h3>
-                    <span className={styles.underline_02_alt}>
-                    </span>
-                        <p className={styles.disclaimer_text}>
-                            This video is incomplete and is missing its ending. However, despite this, it effectively demonstrates fundamental knowledge and skills in motion graphic design, including illustration, animation, and visual storytelling.
-                        </p>
-                    <span className={styles.underline_02_alt}>
-                    </span>
+                    <video className={styles.mockups} src="/videos/space.mp4" 
+                    width={1000} 
+                    height={800} 
+                    controls
+                    poster = "/images/space-thumbnail.png"
+                    ></video>
                     <span className={styles.underline_02}>
                     </span>
                     <p className={styles.description}>

@@ -38,6 +38,16 @@ export default function Projects() {
             How the Solar System Formed
           </button>
         </Link>
+        <Link href='/Midnight'>
+          <button className={styles.button}>
+            Midnight
+          </button>
+        </Link>
+        <Link href='/Portrait'>
+          <button className={styles.button}>
+            Portrait
+          </button>
+        </Link>
       </main>
       <footer className="">
 
