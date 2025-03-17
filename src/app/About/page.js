@@ -10,7 +10,7 @@ export default function About() {
                 <div className={styles.midnight_image_container}>
                     <Image 
                     className={styles.midnight_image}
-                    src="/images/kenny.png"
+                    src="/images/Kenny.png"
                     alt="kenny"
                     width={400}
                     height={660}/>
