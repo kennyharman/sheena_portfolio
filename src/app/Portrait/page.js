@@ -10,7 +10,7 @@ export default function Portrait() {
                 <div className={styles.portrait_content}>
                     <div className={styles.portrait_header_container}>
                         <h1 className={styles.portrait_header}>
-                            portrait
+                            portrait 01
                         </h1>
                     </div>
                     <div className={styles.portrait_subhead_container}>

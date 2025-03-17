@@ -1,0 +1,55 @@
+.content {
+    display: flex;
+    padding: 0 10rem;
+}
+
+.midnight_content {
+    text-align: left;
+    padding-top: 3rem;
+}
+
+.midnight_header {
+    font-size: 48px;
+    letter-spacing: 2px;
+    line-height: 5rem;
+    position: relative;
+}
+
+.header_larger {
+    font-size: 124px;
+}
+
+.midnight_subhead {
+    font-size: 40px;
+    line-height: 2.5rem;
+}
+
+.midnight_software {
+    font-size: 24px;
+    opacity: 80%;
+}
+
+.midnight_content{
+    width: 60%;
+}
+
+.midnight_description {
+    font-size: 16px;
+    margin-top: 3rem;
+    font-family: Walkway-UltraBold, Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 10rem;
+}
+
+.midnight_image_container {
+    padding: 4rem;
+}
+
+.underline {
+    display: block;
+    width: 100%;
+    height: 1px; /* Gives the element a visible height */
+    background-color: var(--sheena-light); /* Instead of border-bottom */
+    opacity: 75%;
+    margin: 2rem 0;
+}

@@ -253,42 +253,6 @@ export default function Remedify() {
                 </div>
             </div>
 
-            <div className={styles.comp_analysis_section}>
-                <div className={styles.comp_analysis_content}>
-                    <h2 className={styles.section_subhead_04}>
-                        wireframing
-                    </h2>
-                    <p className={styles.comp_analysis_description}>
-                    A competitive analysis of existing medication management apps was conducted to identify strengths, weaknesses, and gaps in the market. By evaluating both medical and non-medical applications, key insights were gathered to enhance accessibility, usability, and AI functionality. This analysis informed the development of Remedify, ensuring a user-centered design that addresses pain points and improves medication adherence through refined features and intelligent solutions.
-                    </p>
-                </div>
-                <div className={styles.comp_analysis_frames}>
-                    <div className={styles.comp_analysis_container}>
-                        <h3 className={styles.bold}>
-                            lo-fi wireframes
-                        </h3>
-                        <iframe 
-                            className={styles.comp_analysis}
-                            width="400" 
-                            height="450" 
-                            src="https://embed.figma.com/design/lbLaPFGzOxiCvLbD18gxEl/Remedify-Wireframe?node-id=340-5993&embed-host=share" 
-                            allowFullScreen>
-                        </iframe>
-                    </div>
-                    <div className={styles.comp_analysis_container}>
-                        <h3 className={styles.bold_alt}>
-                            hi-fi wireframes
-                        </h3>
-                        <iframe 
-                            className={styles.comp_analysis}
-                            width="400" 
-                            height="450" 
-                            src="https://embed.figma.com/design/lbLaPFGzOxiCvLbD18gxEl/Remedify-Wireframe?node-id=1797-14184&embed-host=share" 
-                            allowFullScreen>
-                        </iframe>
-                    </div>
-                </div>
-            </div>
 
             <div className={styles.styleguide_section}>
                 <div className={styles.styleguide_container}>
@@ -501,6 +465,44 @@ export default function Remedify() {
                     <h3 className={styles.section_subhead_02}>
                         this section is under development
                     </h3>
+                </div>
+            </div>
+
+
+            <div className={styles.comp_analysis_section}>
+                <div className={styles.comp_analysis_content}>
+                    <h2 className={styles.section_subhead_04}>
+                        wireframing
+                    </h2>
+                    <p className={styles.comp_analysis_description}>
+                        The wireframes were designed to outline the app’s structure and user interactions. Insights from the competitive analysis played a key role in shaping a user-friendly experience that aligns with the needs of the target audience. The wireframe provides a clear representation of how users will navigate and interact with each feature, ensuring seamless usability and intuitive design.
+                    </p>
+                </div>
+                <div className={styles.comp_analysis_frames}>
+                    <div className={styles.comp_analysis_container}>
+                        <h3 className={styles.bold}>
+                            lo-fi wireframes
+                        </h3>
+                        <iframe 
+                            className={styles.comp_analysis}
+                            width="400" 
+                            height="450" 
+                            src="https://embed.figma.com/design/lbLaPFGzOxiCvLbD18gxEl/Remedify-Wireframe?node-id=340-5993&embed-host=share" 
+                            allowFullScreen>
+                        </iframe>
+                    </div>
+                    <div className={styles.comp_analysis_container}>
+                        <h3 className={styles.bold_alt}>
+                            hi-fi wireframes
+                        </h3>
+                        <iframe 
+                            className={styles.comp_analysis}
+                            width="400" 
+                            height="450" 
+                            src="https://embed.figma.com/design/lbLaPFGzOxiCvLbD18gxEl/Remedify-Wireframe?node-id=1797-14184&embed-host=share" 
+                            allowFullScreen>
+                        </iframe>
+                    </div>
                 </div>
             </div>
 

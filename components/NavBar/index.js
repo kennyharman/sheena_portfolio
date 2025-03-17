@@ -26,9 +26,11 @@ export default function NavBar() {
                         Projects
                     </button>
                 </Link>
-                <button className={styles.nav_button}>
-                    About
-                </button>
+                <Link href='/About'>
+                    <button className={styles.nav_button}>
+                        About
+                    </button>
+                </Link>
                 <button className={styles.nav_button}>
                     Contact
                 </button>

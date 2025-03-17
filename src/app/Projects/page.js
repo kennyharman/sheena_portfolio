@@ -2,6 +2,16 @@ import Image from "next/image";
 import NavBar from "../../../components/NavBar"; 
 import styles from "./Projects.module.css"
 import Link from "next/link";
+import ProjectGallery from "../../../components/ProjectGallery";
+
+const projects = [
+  {
+    'link': '/Remedify',
+    'image': '/images/MISC_Remedify-Graphic2.png',
+    'title': 'remedify',
+    'type': 'web application'
+  }
+]
 
 export default function Projects() {
   return (
@@ -38,6 +48,11 @@ export default function Projects() {
             How the Solar System Formed
           </button>
         </Link>
+        <Link href='/HowToGetGas'>
+          <button className={styles.button}>
+            How To Get Gas
+          </button>
+        </Link>
         <Link href='/Midnight'>
           <button className={styles.button}>
             Midnight
@@ -45,7 +60,7 @@ export default function Projects() {
         </Link>
         <Link href='/Portrait'>
           <button className={styles.button}>
-            Portrait
+            Portrait 01
           </button>
         </Link>
       </main>
