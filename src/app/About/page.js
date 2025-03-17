@@ -11,7 +11,7 @@ export default function About() {
                     <Image 
                     className={styles.midnight_image}
                     src="/images/kenny.png"
-                    alt="midnight"
+                    alt="kenny"
                     width={400}
                     height={660}/>
                 </div>
