@@ -6,7 +6,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 140px;
+    font-size: 120px;
     letter-spacing: 4px;
     opacity: 80%;
+}
+
+.cards_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 4rem 4rem;
+    gap: 2rem 0;
 }

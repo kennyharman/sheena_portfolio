@@ -1,6 +1,7 @@
 .content {
     display: flex;
     padding: 0 10rem;
+    margin-bottom: 0;
 }
 
 .midnight_content {
