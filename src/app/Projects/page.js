@@ -55,15 +55,15 @@ export default function Projects() {
           />
           <Card01
             name="how the solar system formed"
-            subtitle="educational motion graphic video"
-            type="graphic design, motion design"
+            subtitle="educational motion graphic"
+            type="motion design, graphic design"
             cover="/images/space_second-thumbnail.png"
             link="/SolarSystem"
           />
           <Card01
             name="how to get gas"
-            subtitle="education motion graphic video"
-            type="graphic design"
+            subtitle="instructional video"
+            type="motion design, video editing, graphic design"
             cover="/images/gas-thumbnail.png"
             link="/HowToGetGas"
           />

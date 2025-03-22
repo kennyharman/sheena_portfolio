@@ -12,7 +12,7 @@ export default function WhiteSparrow() {
     <h1>
       You have found the test page<br/>
       Have a cookie 🍪<br/><br/>
-      There is no active content on this page
+      There is, however, no active content on this page
     </h1>
     </div>
     </>

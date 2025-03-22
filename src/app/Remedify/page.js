@@ -84,7 +84,7 @@ export default function Remedify() {
                     </h5>
                 </div>
                 <div className={styles.mockup_01}>
-                    <Image src="/images/remedify_mockup02.png" alt="remedify phone mockup" width={1000} height={1200} />
+                    <Image src="/images/remedify_mockup04.png" alt="remedify phone mockup" width={286} height={1200} />
                 </div>
                 <button className={styles.scroll_button} onClick={() => scrollToSection("problem_solution")}>
                     <Image src="/images/down-arrow_white.svg" alt="arrow button" width={30} height={30} />
@@ -93,7 +93,7 @@ export default function Remedify() {
 
             <div className={styles.problem_solution_section}>
                 <div className={styles.mockup_02}>
-                    <Image src="/images/remedify_mockup04.png" alt="remedify phone mockup" width={300} height={400} />
+                    <Image src="/images/remedify_mockup02.png" alt="remedify phone mockup" width={1000} height={400} />
                 </div>
                 <div id="problem_solution" className={styles.problem_solution}>
                     <div className={styles.problem}>
@@ -161,16 +161,56 @@ export default function Remedify() {
                     features
                 </h2>
                 <div className={styles.features_container}>
-                    <div className={styles.features_content}>
-                        <h3 className={styles.section_subhead_05}>
-                            AI-powered label scanning
-                        </h3>
-                        <p className={styles.feature_description}>
-                            Easily scan your medication labels to set up reminders automatically, minimizing the steps you need to remember and simplifying the process.
-                        </p>
+                    <div className={styles.feature_wrapper_01}>
+                        <div className={styles.features_content}>
+                            <h3 className={styles.section_subhead_05}>
+                                AI-powered label scanning
+                            </h3>
+                            <p className={styles.feature_description}>
+                                Easily scan your medication labels to set up reminders automatically, minimizing the steps you need to remember and simplifying the process.
+                            </p>
+                        </div>
+                        <div className={styles.features_image_container}>
+                            <Image className={styles.features_image} src="/images/remedify_mockup05.png" alt="remedify phone mockup" width={840} height={600}/>
+                        </div>
                     </div>
-                    <div className={styles.features_image_container}>
-                        <Image className={styles.features_image} src="/images/remedify_mockup05.png" alt="remedify phone mockup" width={300} height={200}/>
+                    <div className={styles.feature_wrapper_02}>
+                        <div className={styles.feature_content_02}>
+                            <h3 className={styles.section_subhead_05_center}>
+                                One-tap<br/> medication logging
+                            </h3>
+                            <p className={styles.feature_description_02}>
+                                Easily log each dose with a single tap and track medications effortlessly through a simple, intuitive interface designed for seamless medication management.
+                            </p>
+                        </div>
+                        <div className={styles.features_image_container_02}>
+                            <Image 
+                                className={styles.features_image_02}
+                                src='/images/reminder.png'
+                                alt='reminder'
+                                width={300}
+                                height={100}
+                            />
+                        </div>
+                    </div>
+                    <div className={styles.feature_wrapper_03}>
+                        <div className={styles.features_image_container_03}>
+                            <Image
+                                className={styles.features_image_03}
+                                src='/images/library.png'
+                                alt='medication library'
+                                width={780}
+                                height={100}
+                            />
+                        </div>
+                        <div className={styles.feature_content_03}>
+                            <h3 className={styles.section_subhead_05_left}>
+                                Accessible medication library
+                            </h3>
+                            <p className={styles.feature_description_03}>
+                                Access all medications in one clear, easily navigable library, providing reliable and easy-to-understand information to empower users in managing their health with confidence.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -443,12 +483,111 @@ export default function Remedify() {
                     </h2>
                 </div>
                 <div className={styles.typography_content}>
-                    <h2 className={styles.section_subhead_02}>
-                        details to be added soon
-                    </h2>
-                    <h3 className={styles.section_subhead_02}>
-                        this section is under development
-                    </h3>
+                    <div className={styles.typography_summary_container}>
+                        <p className={styles.typography_summary}>
+                            Remedify’s typography was carefully chosen to create a welcoming and user-centered experience while ensuring clear visual hierarchy and readability. The selection of rounded and approachable typefaces reinforces the app’s friendly and inviting design, making interactions feel intuitive and accessible. By using a structured combination of fonts for headings, buttons, and body text, the design maintains a balance between warmth and clarity, guiding users seamlessly through the interface. 
+                        </p>
+                    </div>
+                    <div className={styles.typeface_container}>
+                        <div className={styles.typeface}>
+                            <h3>
+                                omnes cyrillic
+                            </h3>
+                            <p className={styles.alphabet}>
+                                ABCDEFGHIJKLMNOPQRSTUVWXYZ<br/>
+                                abcdefghijklmnopqrxtuvwxyz<br/>
+                                1234567890
+                            </p>
+                            <p>
+                                Omnes Cyrillic was used for Remedify's wordmark, selected for its rounded and inviting appearance
+                            </p>
+                            <Image
+                                src="/images/remedify.svg"
+                                alt="remedify logo with wordmark"
+                                width={360}
+                                height={200}
+                            />
+                        </div>
+                        <div className={styles.typeface}>
+                            <h3>
+                                poppins
+                            </h3>
+                            <p className={styles.alphabet}>
+                                ABCDEFGHIJKLMNOPQRSTUVWXYZ<br/>
+                                abcdefghijklmnopqrxtuvwxyz<br/>
+                                1234567890
+                            </p>
+                            <p>
+                                Poppins is utilized as a secondary typeface as a header and button font.
+                            </p>
+                            <div className={styles.text_example_container_poppins}>
+                                <p>
+                                    H1
+                                </p>
+                                <p>
+                                    Heading
+                                </p>
+                                <p>
+                                    SemiBold 26pt
+                                </p>
+                            </div>
+                        </div>
+                        <div className={styles.typeface}>
+                            <h3>
+                                public sans
+                            </h3>
+                            <p className={styles.alphabet}>
+                                ABCDEFGHIJKLMNOPQRSTUVWXYZ<br/>
+                                abcdefghijklmnopqrxtuvwxyz<br/>
+                                1234567890
+                            </p>
+                            <p>
+                                Public Sans was selected as a tertiary typeface, used as body copy to establish clear visual hierarchy
+                            </p>
+                            <div className={styles.text_example_container_public}>
+                                <div className={styles.public_text_container_01}>
+                                    <p>
+                                        H2
+                                    </p>
+                                    <p>
+                                        Subheading
+                                    </p>
+                                    <p>
+                                        SemiBold 18pt
+                                    </p>
+                                </div>
+                                <div className={styles.public_text_container_02}>
+                                    <div className={styles.text_subcontainer_01}>
+                                        <p>
+                                            Body Copy
+                                        </p>
+                                    </div>
+                                    <div className={styles.text_subcontainer_01}>
+                                        <p>
+                                            Bold Body
+                                        </p>
+                                        <p>
+                                            Body
+                                        </p>
+                                        <p>
+                                            Small Body
+                                        </p>
+                                    </div>
+                                    <div className={styles.text_subcontainer_02}>
+                                        <p>
+                                            Bold 16pt
+                                        </p>
+                                        <p>
+                                            Regular 16pt
+                                        </p>
+                                        <p>
+                                            Regular 14pt
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -459,12 +598,127 @@ export default function Remedify() {
                     </h2>
                 </div>
                 <div className={styles.iconography_content}>
-                    <h2 className={styles.section_subhead_02}>
-                        details to be added soon
-                    </h2>
-                    <h3 className={styles.section_subhead_02}>
-                        this section is under development
-                    </h3>
+                    <div className={styles.iconography_summary_container}>
+                        <p className={styles.iconography_summary}>
+                            Several custom icons were designed to represent different types of medications, incorporating the app’s color scheme and utilizing large, clear shapes with a friendly, rounded aesthetic. These icons enhance accessibility and make it easier for users to sort medications within complex schedules. Additionally, custom graphics were created for the scan screen, providing a clear visual guide to help users navigate the app’s scanning feature effortlessly.
+                        </p>
+                    </div>
+                    <div className={styles.iconography_icons_container}>
+                        <div className={styles.med_icon_container_01}>
+                            <div className={styles.icon_container}>
+                                <Image
+                                    className={styles.med_icon}
+                                    src='/images/remedify_icons/Capsule.svg'
+                                    alt='capsule icon'
+                                    width={78}
+                                    height={200}
+                                />
+                            </div>
+                            <div className={styles.icon_container}>
+                                <Image
+                                    className={styles.med_icon}
+                                    src='/images/remedify_icons/Tablets.svg'
+                                    alt='capsule icon'
+                                    width={100}
+                                    height={200}
+                                />
+                            </div>
+                            <div className={styles.icon_container}>
+                                <Image
+                                    className={styles.med_icon}
+                                    src='/images/remedify_icons/Spray.svg'
+                                    alt='capsule icon'
+                                    width={34}
+                                    height={100}
+                                />
+                            </div>
+                            <div className={styles.icon_container}>
+                                <Image
+                                    className={styles.med_icon}
+                                    src='/images/remedify_icons/Injection.svg'
+                                    alt='capsule icon'
+                                    width={64}
+                                    height={200}
+                                />
+                            </div>
+                            <div className={styles.icon_container}>
+                                <Image
+                                    className={styles.med_icon}
+                                    src='/images/remedify_icons/Ointment.svg'
+                                    alt='capsule icon'
+                                    width={68}
+                                    height={200}
+                                />
+                            </div>
+                            <div className={styles.icon_container}>
+                                <Image
+                                    className={styles.med_icon}
+                                    src='/images/remedify_icons/Liquid.svg'
+                                    alt='capsule icon'
+                                    width={94}
+                                    height={200}
+                                />
+                            </div>
+                            <div className={styles.icon_container}>
+                                <Image
+                                    className={styles.med_icon}
+                                    src='/images/remedify_icons/Dropper.svg'
+                                    alt='capsule icon'
+                                    width={22}
+                                    height={200}
+                                />
+                            </div>
+                        </div>
+                        <div className={styles.med_icon_container_02}>
+                            <div className={styles.med_scan_container}>
+                                <Image
+                                    className={styles.scan_icon}
+                                    src='/images/remedify_icons/pill-bottle_scan.svg'
+                                    alt='injection scan screen icon'
+                                    width={140}
+                                    height={100}
+                                />
+                                <Image
+                                    className={styles.scan_icon}
+                                    src='/images/remedify_icons/injection_scan.svg'
+                                    alt='injection scan screen icon'
+                                    width={140}
+                                    height={100}
+                                />
+                                <Image
+                                    className={styles.scan_icon}
+                                    src='/images/remedify_icons/spray-bottle_scan.svg'
+                                    alt='injection scan screen icon'
+                                    width={140}
+                                    height={100}
+                                />
+                                <Image
+                                    className={styles.scan_icon}
+                                    src='/images/remedify_icons/ointment_bottle-scan.svg'
+                                    alt='injection scan screen icon'
+                                    width={140}
+                                    height={100}
+                                />
+                                <Image
+                                    className={styles.scan_icon}
+                                    src='/images/remedify_icons/liquid_scan.svg'
+                                    alt='injection scan screen icon'
+                                    width={140}
+                                    height={100}
+                                />
+                                <Image
+                                    className={styles.scan_icon}
+                                    src='/images/remedify_icons/dropper_scan.svg'
+                                    alt='injection scan screen icon'
+                                    width={140}
+                                    height={100}
+                                />
+                            </div>
+                        </div>
+                        <div className={styles.med_scan_container}>
+
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -509,16 +763,35 @@ export default function Remedify() {
             <div className={styles.marketing_section}>
                 <div className={styles.marketing_head_container}>
                     <h2 className={styles.section_subhead_04}>
-                        marketing materials
+                        promotional materials
                     </h2>
                 </div>
                 <div className={styles.marketing_content}>
-                    <h2 className={styles.section_subhead_02}>
-                        details to be added soon
-                    </h2>
-                    <h3 className={styles.section_subhead_02}>
-                        this section is under development
-                    </h3>
+                    <div className={styles.marketing_summary_container}>
+                        <p className={styles.marketing_summary}>
+                            A variety of marketing materials were developed to support the promotion of Remedify, including business cards, brochures, and a promotional advertisement video. The brochure, carefully designed in Adobe InDesign, effectively communicates the app’s purpose, key features, and target audience in a visually engaging format. Meanwhile, the advertisement video was crafted to tell a compelling visual story, illustrating the real-world impact of Remedify through the lens of a potential user. By focusing on narrative-driven marketing, these materials aim to highlight the app’s value and connect with audiences on a deeper level.
+                        </p>
+                    </div>
+                    <div className={styles.marketing_materials_container}>
+                        <div className={styles.brochure_wrapper}>
+                            <Image
+                                className={styles.brochure}
+                                src='/images/brochure-mockup.png'
+                                alt='remedify brochure mockup'
+                                width={680}
+                                height={200}
+                            />
+                        </div>
+                        <div className={styles.advertisement_wrapper}>
+                            <video 
+                                className={styles.mockups} src="/videos/remedify_advertisement.mov" 
+                                width={640} 
+                                height={300} 
+                                controls
+                                poster = ""
+                            ></video>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -528,13 +801,28 @@ export default function Remedify() {
                         motion design
                     </h2>
                 </div>
-                <div className={styles.motion_content}>
-                    <h2 className={styles.section_subhead_02}>
-                        details to be added soon
-                    </h2>
-                    <h3 className={styles.section_subhead_02}>
-                        this section is under development
-                    </h3>
+                <div className={styles.motion_summary_container}>
+                    <p className={styles.motion_summary}>
+                        To enhance engagement and visual appeal, motion graphics were incorporated into Remedify’s logo and medication scanning screen. These animations add a dynamic touch to the user experience while reinforcing the app’s friendly and approachable design. Created using Adobe After Effects, the animations were carefully crafted with Remedify’s existing graphic assets, ensuring consistency with the app’s visual identity. Designed with accessibility in mind, these motion elements provide intuitive cues that help guide users while making interactions feel more seamless and engaging.
+                    </p>
+                </div>
+                <div className={styles.animations_container}>
+                    <div className={styles.animation_wrapper}>
+                        <Image 
+                            className={styles.animation}
+                            src='/images/remedify_logo-animation.gif'
+                            alt='logo animation'
+                            width={600}
+                            height={200}
+                        />
+                        <Image 
+                            className={styles.animation}
+                            src='/images/scan_animation.gif'
+                            alt='scan animation'
+                            width={600}
+                            height={200}
+                        />
+                    </div>
                 </div>
             </div>
 

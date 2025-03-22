@@ -9,6 +9,7 @@
     font-size: 120px;
     letter-spacing: 4px;
     opacity: 80%;
+    user-select: none;
 }
 
 .cards_container {
