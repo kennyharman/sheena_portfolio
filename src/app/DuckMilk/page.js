@@ -57,10 +57,10 @@ export default function DuckMilk() {
                     </section>     
                     <span className={styles.underline_03}>
                     </span>  
-                    <div className={styles.posters}>
-                        <Image className={styles.eden_poster} src="/images/PROOF_1.png" alt="i think you think too much of me" width={360} height={100}/>
-                        <Image className={styles.eden_poster} src="/images/PROOF_2.png" alt="vertigo" width={360} height={100}/>
-                        <Image className={styles.eden_poster} src="/images/PROOF_3.png" alt="end credits" width={360} height={100}/>
+                    <div className={styles.dielines}>
+                        <Image className={styles.eden_poster} src="/images/milk1.png" alt="classic duck milk" width={840} height={100}/>
+                        <Image className={styles.eden_poster} src="/images/milk2.png" alt="chocolate duck milk" width={840} height={100}/>
+                        <Image className={styles.eden_poster} src="/images/milk3.png" alt="strawberry duck milk" width={840} height={100}/>
                     </div> 
                 </div>
             </div>

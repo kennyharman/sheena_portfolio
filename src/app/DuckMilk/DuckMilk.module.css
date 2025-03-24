@@ -111,9 +111,10 @@
     font-size: 20px;
 }
 
-.posters {
+.dielines {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     gap: 3rem;
     margin-top: 8rem;
 }

@@ -91,6 +91,19 @@ export default function Remedify() {
                 </button>
             </div>
 
+            <div className={styles.demo_section}>
+                <div className={styles.demo_head_container}>
+                    <h2 className={styles.section_subhead_04}>
+                        demo prototype
+                    </h2>
+                </div>
+                <div className={styles.demo_container}>
+                    <div className={styles.demo_wrapper}>
+                        
+                    </div>
+                </div>
+            </div>
+
             <div className={styles.problem_solution_section}>
                 <div className={styles.mockup_02}>
                     <Image src="/images/remedify_mockup02.png" alt="remedify phone mockup" width={1000} height={400} />

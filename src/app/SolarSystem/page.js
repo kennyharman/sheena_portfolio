@@ -39,11 +39,26 @@ export default function SolarSystem() {
                         This project showcases a combination of illustration and motion design techniques, demonstrating how educational content can be both informative and visually captivating.
                     </p>     
                     <span className={styles.underline_03}>
-                    </span>  
-                    <div className={styles.posters}>
-                        <Image className={styles.eden_poster} src="/images/venture1.png" alt="ventureway cinemas poster 1" width={360} height={100}/>
-                        <Image className={styles.eden_poster} src="/images/venture2.png" alt="ventureway cinemas poster 2" width={360} height={100}/>
-                        <Image className={styles.eden_poster} src="/images/venture3.png" alt="ventureway cinemas poster 3" width={360} height={100}/>
+                    </span> 
+                    <div className={styles.assets_container}>
+                        <div className={styles.asset_image_container}>
+                            <Image
+                                className={styles.asset_image}
+                                src='/images/space_assets.png'
+                                alt='solar system assets'
+                                width={1000}
+                                height={1080}
+                            />
+                        </div>
+                        <div className={styles.asset_image_container}>
+                            <Image
+                                className={styles.asset_image}
+                                src='/images/illustrator_file.png'
+                                alt='solar system source file'
+                                width={1000}
+                                height={1080}
+                            />
+                        </div>
                     </div> 
                 </div>
             </div>

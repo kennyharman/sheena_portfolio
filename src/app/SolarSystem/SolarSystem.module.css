@@ -80,6 +80,9 @@
     width: 70%;
     text-align: center;
     margin-top: 2rem;
+    font-family: Walkway-Ultrabold, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
 .posters {
@@ -102,4 +105,15 @@
     line-height: 1.5rem;
     opacity: 85%;
     letter-spacing: 2px;
+}
+
+.assets_container {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.asset_image {
+    border-radius: 10px;
 }
