@@ -237,7 +237,7 @@ export default function Remedify() {
                         </p>
                         <Link href="https://docs.google.com/document/d/1MGyxeF7pkwpVo4VsNl829hrDaSTTYn5Frfa2RREm4Nc/edit?tab=t.0" alt="remedify research document" target="_blank">
                             <button className={styles.document_button}>
-                                view full research document
+                                view full research document  <span><Image src='/images/link.svg' alt='link' width={14} height={14}/></span>
                             </button>
                         </Link>
                     </div>
@@ -282,14 +282,50 @@ export default function Remedify() {
             </div>
 
             <div className={styles.persona_section}>
-                <div className={styles.persona_container}>
-                <iframe 
-                    className={styles.personas}
-                    width="500" 
-                    height="450" 
-                    src="https://embed.figma.com/proto/eqiBsR991DWqKMuktHQb1P/Persona?page-id=64%3A4&node-id=162-195&p=f&viewport=387%2C336%2C0.27&scaling=min-zoom&content-scaling=fixed&embed-host=share" 
-                    allowFullScreen>
-                </iframe>
+                <div className={styles.persona_content}>
+                    <div className={styles.persona_images_container}>
+                        <Image
+                            className={styles.persona_image}
+                            src='/images/primary_persona.png'
+                            alt='remedify primary user persona'
+                            width={380}
+                            height={600}
+                        />
+                        <Image
+                            className={styles.persona_image}
+                            src='/images/secondary_persona.png'
+                            alt='remedify secondary user persona'
+                            width={360}
+                            height={600}
+                        />
+                    </div>
+                    <div className={styles.persona_summary_container}>
+                        <div className={styles.persona_head_container}>
+                            <h2 className={styles.section_subhead_04}>
+                                user personas
+                            </h2>
+                        </div>
+                        <div className={styles.persona_summary_text}>
+                            User personas were created to help shape Remedify's design by providing insight into the needs and challenges of its target users. By understanding their experiences, we ensure Remedify remains intuitive, practical, and user-focused.
+                        </div>  
+                        <ul className={styles.persona_list}>
+                            <li className={styles.list_text}>
+                                <span className={styles.list_bold}>Primary Persona: Elderly Individual</span><br/> The primary user is an older adult managing multiple medications while dealing with memory-related difficulties.
+                            </li>
+                        </ul>
+                        <ul className={styles.persona_list}>
+                            <li className={styles.list_text}>
+                                <span className={styles.list_bold}>Secondary Persona: Caregiver</span><br/> The secondary user is a caregiver who helps a loved one stay on track with their medication schedule.
+                            </li>
+                        </ul>
+                        <div className={styles.persona_button_container}>
+                            <Link href="https://embed.figma.com/proto/eqiBsR991DWqKMuktHQb1P/Persona?page-id=64%3A4&node-id=162-195&viewport=1114%2C315%2C0.41&scaling=min-zoom&content-scaling=fixed&embed-host=share" alt="remedify user personas" target="_blank">
+                                <button className={styles.persona_button}>
+                                    view user personas <span><Image src='/images/link.svg' alt='link' width={14} height={14}/></span>
+                                </button>
+                            </Link>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -741,7 +777,7 @@ export default function Remedify() {
                             className={styles.comp_analysis}
                             width="400" 
                             height="450" 
-                            src="https://embed.figma.com/design/lbLaPFGzOxiCvLbD18gxEl/Remedify-Wireframe?node-id=340-5993&embed-host=share" 
+                            src="https://embed.figma.com/design/lbLaPFGzOxiCvLbD18gxEl/Remedify-Wireframe?node-id=0-1&embed-host=share"
                             allowFullScreen>
                         </iframe>
                     </div>
