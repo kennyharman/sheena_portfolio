@@ -1,6 +1,7 @@
 import Image from "next/image";
 import NavBar from "../../../components/NavBar";
 import styles from "./Portrait.module.css"
+import Footer from "../../../components/Footer";
 
 export default function Portrait() {
     return(
@@ -38,6 +39,10 @@ export default function Portrait() {
                     height={660}/>
                 </div>
             </div>
+
+        <footer>
+            <Footer/>
+        </footer>
         </main>
     );
 };

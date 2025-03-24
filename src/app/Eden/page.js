@@ -1,6 +1,7 @@
 import Image from "next/image";
 import NavBar from "../../../components/NavBar";
 import styles from "./Eden.module.css"
+import Footer from "../../../components/Footer";
 
 export default function Eden() {
     return(
@@ -41,6 +42,10 @@ export default function Eden() {
                     </div> 
                 </div>
             </div>
+
+        <footer>
+            <Footer/>
+        </footer>
         </main>
     );
 };

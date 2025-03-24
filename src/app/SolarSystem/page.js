@@ -1,6 +1,7 @@
 import Image from "next/image";
 import NavBar from "../../../components/NavBar";
 import styles from "./SolarSystem.module.css"
+import Footer from "../../../components/Footer";
 
 export default function SolarSystem() {
     return(
@@ -62,6 +63,10 @@ export default function SolarSystem() {
                     </div> 
                 </div>
             </div>
+
+        <footer>
+            <Footer/>
+        </footer>
         </main>
     );
 };

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import NavBar from "../../../components/NavBar";
 import styles from "./DuckMilk.module.css"
+import Footer from "../../../components/Footer";
 
 export default function DuckMilk() {
     return(
@@ -64,6 +65,10 @@ export default function DuckMilk() {
                     </div> 
                 </div>
             </div>
+
+        <footer>
+            <Footer/>
+        </footer>
         </main>
     );
 };

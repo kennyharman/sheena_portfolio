@@ -31,9 +31,6 @@ export default function NavBar() {
                         About
                     </button>
                 </Link>
-                <button className={styles.nav_button}>
-                    Contact
-                </button>
             </div>
         </div>
     );

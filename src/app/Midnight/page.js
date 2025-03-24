@@ -1,6 +1,7 @@
 import Image from "next/image";
 import NavBar from "../../../components/NavBar";
 import styles from "./Midnight.module.css"
+import Footer from "../../../components/Footer";
 
 export default function Midnight() {
     return(
@@ -39,6 +40,10 @@ export default function Midnight() {
                     height={660}/>
                 </div>
             </div>
+
+        <footer>
+            <Footer/>
+        </footer>
         </main>
     );
 };

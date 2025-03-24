@@ -1,6 +1,7 @@
 import Image from "next/image";
 import NavBar from "../../../components/NavBar";
 import styles from "./HowToGetGas.module.css"
+import Footer from "../../../components/Footer";
 
 export default function HowToGetGas() {
     return(
@@ -45,6 +46,10 @@ export default function HowToGetGas() {
                     </div> 
                 </div>
             </div>
+
+        <footer>
+            <Footer/>
+        </footer>
         </main>
     );
 };

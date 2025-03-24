@@ -1,0 +1,50 @@
+.footer_container {
+    margin: 4rem 6.5rem;
+    padding-top: 20rem;
+}
+
+.footer_head {
+    font-size: 146px;
+    opacity: 50%;
+    user-select: none;
+}
+
+.link_container {
+    font-size: 70px;
+    line-height: 5rem;
+}
+
+.contact_button {
+    opacity: 50%;
+    position: relative;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+    margin-top: 1rem;
+    font-family: Walkway-Black, Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    letter-spacing: 6px;
+}
+
+.contact_button:after {
+    content: "";
+    position: absolute;
+    background-image: var(--sheena-gradient-02);
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: -2px;
+    transition: 0.3s;
+}
+
+.contact_button:hover {
+    opacity: 100%;
+}
+
+.contact_button:hover:after{
+    width: 98%;
+}

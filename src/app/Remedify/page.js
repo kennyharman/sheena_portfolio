@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import NavBar from "../../../components/NavBar";
 import styles from "./Remedify.module.css";
+import Footer from "../../../components/Footer";
 
 export default function Remedify() {
 
@@ -99,7 +100,7 @@ export default function Remedify() {
                 </div>
                 <div className={styles.demo_container}>
                     <div className={styles.demo_wrapper}>
-                        
+
                     </div>
                 </div>
             </div>
@@ -874,7 +875,9 @@ export default function Remedify() {
                     </div>
                 </div>
             </div>
-
+        <footer>
+            <Footer/>
+        </footer>
         </main>
     );
 }

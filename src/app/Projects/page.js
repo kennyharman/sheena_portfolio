@@ -4,6 +4,7 @@ import styles from "./Projects.module.css"
 import Link from "next/link";
 import ProjectGallery from "../../../components/ProjectGallery";
 import Card01 from "../../../components/Card01";
+import Footer from "../../../components/Footer";
 
 const projects = [
   {
@@ -82,10 +83,12 @@ export default function Projects() {
             link="/Portrait"
           />
         </div>
+        
+        <footer>
+            <Footer/>
+        </footer>
       </main>
-      <footer className="">
 
-      </footer>
     </div>
   );
 }

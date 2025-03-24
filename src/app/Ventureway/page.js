@@ -1,6 +1,7 @@
 import Image from "next/image";
 import NavBar from "../../../components/NavBar";
 import styles from "./Ventureway.module.css"
+import Footer from "../../../components/Footer";
 
 export default function Ventureway() {
     return(
@@ -40,6 +41,10 @@ export default function Ventureway() {
                     </div> 
                 </div>
             </div>
+
+        <footer>
+            <Footer/>
+        </footer>
         </main>
     );
 };
