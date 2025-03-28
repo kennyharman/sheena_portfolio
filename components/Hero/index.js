@@ -3,7 +3,7 @@ import React, { useRef, useEffect, useState } from "react";
 import { gsap } from "gsap";
 import styles from "./Hero.module.css";
 import Link from "next/link";
-import WhiteSparrow from "@/app/WhiteSparrow/page";
+import Logo from "../Logo";
 
 export default function Hero() {
   const buttonRef = useRef(null);
@@ -131,7 +131,7 @@ export default function Hero() {
       </div>
 
       <div className={styles.hero_content}>
-        <WhiteSparrow
+        <Logo
             className={styles.hero_logo}
             ref={logoRef}
         />

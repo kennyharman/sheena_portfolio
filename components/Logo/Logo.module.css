@@ -1,0 +1,113 @@
+.logo_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.logo_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 75vh;
+  }
+  
+  .ghost_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 400px;
+    height: 400px;
+  }
+  
+  .sheena_glasses {
+    width: 94%;
+    margin-left: 0.75rem;
+    margin-top: -1rem;
+    z-index: 1; /* Ensures glasses are on top of the ghost */
+  }
+
+  .fog_container_left {
+    position: absolute;
+    left: 0px; /* Move container outside the main logo container */
+    width: 200px;
+    height: 400px;
+  }
+  
+  .fog {
+    position: absolute;
+    opacity: 1; /* Optional: make fog slightly transparent */
+  }
+  
+  /* Use nth-child to offset each fog cloud */
+  .fog:nth-child(1) { top: 270px; left: 354px; width: 100%; }
+  .fog:nth-child(2) { top: 230px; left: 426.5px; width: 60%; }
+  .fog:nth-child(3) { top: 160px; left: 375.5px; width: 87%; }
+  .fog:nth-child(4) { bottom: 200px; left: 441px; width: 58%; }
+  .fog:nth-child(5) { bottom: 250px; left: 514.75px; width: 30%; }
+  
+  .fog_container_right {
+    position: absolute;
+    left: 0px; /* Move container outside the main logo container */
+    width: 200px;
+    height: 400px;
+  }
+
+  .fog_02 {
+    position: absolute;
+    opacity: 1; /* Optional: make fog slightly transparent */
+  }
+
+  .fog_02:nth-child(1) { top: 268px; left: 952px; width: 65%; }
+  .fog_02:nth-child(2) { top: 228px; left: 959.741px; width: 90%; opacity: 70%; }
+  .fog_02:nth-child(3) { top: 162px; left: 954.5px; width: 35%; }
+  .fog_02:nth-child(4) { bottom: 188px; left: 948px; width: 80%; }
+  .fog_02:nth-child(5) { bottom: 252px; left: 932px; width: 38%; }
+
+  .fog, .fog_02 {
+    position: absolute;
+    filter: grayscale(100%);
+    transition: filter 0.2s ease-in-out; /* Quick, symmetrical transition */
+  }
+
+  .fog:hover, .fog_02:hover {
+    filter: grayscale(0%) !important; /* Force color on hover */
+    transition: filter 1s ease-in;
+  }
+
+  
+
+  @keyframes glimmer {
+    0%, 90% { 
+      filter: grayscale(100%); 
+    }
+    70%, 71% { 
+      filter: grayscale(0%);
+    }
+  }
+
+  .fog:nth-child(1), .fog_02:nth-child(1) {
+    animation: glimmer 2s ease-in-out infinite;
+    animation-delay: 1s;
+  }
+  
+  .fog:nth-child(2), .fog_02:nth-child(2) {
+    animation: glimmer 2.2s ease-in-out infinite;
+    animation-delay: 2s;
+  }
+  
+  .fog:nth-child(3), .fog_02:nth-child(3) {
+    animation: glimmer 2.8s ease-in-out infinite;
+    animation-delay: 3s;
+  }
+  
+  .fog:nth-child(4), .fog_02:nth-child(4) {
+    animation: glimmer 2.5s ease-in-out infinite;
+    animation-delay: 0.5s;
+  }
+  
+  .fog:nth-child(5), .fog_02:nth-child(5) {
+    animation: glimmer 2.1s ease-in-out infinite;
+    animation-delay: 2.5s;
+  }
