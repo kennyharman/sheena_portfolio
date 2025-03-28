@@ -2,7 +2,7 @@ import Image from "next/image";
 import NavBar from "../../components/NavBar";
 import styles from "./styles/Home.module.css"
 import Link from "next/link";
-import Hero from "./WhiteSparrow/page";
+import Hero from "../../components/Hero";
 import Footer from "../../components/Footer";
 
 export default function Home() {

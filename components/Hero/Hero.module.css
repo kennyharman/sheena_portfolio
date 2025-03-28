@@ -1,0 +1,117 @@
+.hero_container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .gallery_background {
+    opacity: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 26px;
+    padding: 20px;
+    z-index: 1;
+  }
+  
+  .gallery_item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transform: scale(0.98);
+    filter: grayscale(1);
+    opacity: 0.1;
+    background-color: #333;
+  }
+  
+  .gallery_item.even {
+    background-color: #f0f4f8;
+  }
+  
+  .gallery_item.odd {
+    background-color: #e1e8ed;
+  }
+  
+  .gallery_item:hover {
+    transform: scale(1.02) !important;
+  }
+  
+  .hero_content {
+    position: relative;
+    z-index: 4;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #333;
+    padding: 0 20px;
+  }
+  
+  .hero_logo {
+    width: 800px;
+    height: 560px;
+    transform: scale(1); 
+    transform-origin: center; 
+  }
+
+  .hero_button_container {
+    display: flex;
+  }
+
+  .hero_button {
+    font-size: 26px;
+    letter-spacing: 1.5px;
+    color: #ededed;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    opacity: 65%;
+    position: relative;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+    font-family: Walkway-Black, Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+  }
+
+  .hero_button:after {
+    content: "";
+    position: absolute;
+    background-image: var(--sheena-gradient-02);
+    height: 1px;
+    width: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -2px;
+    transition: 0.3s;
+}
+  
+  .hero_button:hover {
+    opacity: 100%;
+  }
+
+  .hero_button:hover:after{
+    width: 100%;
+}
+  
+  @media (max-width: 768px) {
+    .gallery_background {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .hero_logo {
+      width: 70px;
+      height: 70px;
+    }
+  }
