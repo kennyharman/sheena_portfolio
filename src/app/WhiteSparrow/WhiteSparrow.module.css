@@ -6,6 +6,7 @@
   }
   
   .gallery_background {
+    opacity: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -13,17 +14,21 @@
     height: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 26px;
     padding: 20px;
     z-index: 1;
   }
   
   .gallery_item {
+    display: flex;
+    align-items: center;
     width: 100%;
     height: 100%;
     border-radius: 10px;
     transform: scale(0.98);
-    background-color: #f0f4f8;
+    filter: grayscale(1);
+    opacity: 0.1;
+    background-color: #333;
   }
   
   .gallery_item.even {
@@ -45,7 +50,6 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     text-align: center;
     color: #333;
@@ -54,28 +58,56 @@
   
   /* Logo Styling */
   .hero_logo {
-    width: 200px;
-    height: 200px;
-    margin-bottom: 20px; /* Space between logo and button */
+    width: 800px;
+    height: 560px;
     transform: scale(1); /* Initial scale for breathing effect */
     transform-origin: center; /* Ensures scaling happens from the center */
   }
   
   /* Button Styling */
+
+  .hero_button_container {
+    display: flex;
+  }
+
   .hero_button {
-    padding: 12px 24px;
-    font-size: 1.1rem;
-    background-color: #007bff;
-    color: white;
+    font-size: 26px;
+    letter-spacing: 1.5px;
+    color: #ededed;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    opacity: 65%;
+    position: relative;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+    font-family: Walkway-Black, Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
   }
+
+  .hero_button:after {
+    content: "";
+    position: absolute;
+    background-image: var(--sheena-gradient-02);
+    height: 1px;
+    width: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -2px;
+    transition: 0.3s;
+}
   
   .hero_button:hover {
-    background-color: #0056b3;
+    opacity: 100%;
   }
+
+  .hero_button:hover:after{
+    width: 100%;
+}
   
   @media (max-width: 768px) {
     .gallery_background {
