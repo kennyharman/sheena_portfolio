@@ -342,8 +342,6 @@ export default function Remedify() {
                     </div>
                 </div>
             </div>
-
-
             <div className={styles.styleguide_section}>
                 <div className={styles.styleguide_container}>
                     <div className={styles.styleguide_content}>
@@ -367,7 +365,6 @@ export default function Remedify() {
                     </div>
                 </div>
             </div>
-
             <div className={styles.color_palette_section}>
                 <div className={styles.color_palette_head_container}>
                     <h2 className={styles.section_subhead_04}>
