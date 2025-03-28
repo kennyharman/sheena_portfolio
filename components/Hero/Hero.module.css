@@ -56,14 +56,10 @@
   }
   
   .hero_logo {
+    margin-top: 2rem;
     width: 800px;
-    height: 560px;
     transform: scale(1); 
     transform-origin: center; 
-  }
-
-  .hero_button_container {
-    display: flex;
   }
 
   .hero_button {
@@ -83,6 +79,7 @@
     font-family: Walkway-Black, Arial, Helvetica, sans-serif;
     display: flex;
     align-items: center;
+    margin-top: -1.5rem;
   }
 
   .hero_button:after {

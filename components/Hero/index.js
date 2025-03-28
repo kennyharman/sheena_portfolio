@@ -3,6 +3,7 @@ import React, { useRef, useEffect, useState } from "react";
 import { gsap } from "gsap";
 import styles from "./Hero.module.css";
 import Link from "next/link";
+import Logo from "../Logo";
 
 export default function Hero() {
   const buttonRef = useRef(null);
@@ -130,11 +131,9 @@ export default function Hero() {
       </div>
 
       <div className={styles.hero_content}>
-        <img
-          ref={logoRef}
-          src="/images/logo_no-wordmark.svg" 
-          className={styles.hero_logo}
-          alt="Logo"
+        <Logo
+            className={styles.hero_logo}
+            ref={logoRef}
         />
         <Link href="/Projects">
           <button 
