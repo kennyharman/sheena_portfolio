@@ -25,22 +25,21 @@
     width: 94%;
     margin-left: 0.75rem;
     margin-top: -1rem;
-    z-index: 1; /* Ensures glasses are on top of the ghost */
+    z-index: 1; 
   }
 
   .fog_container_left {
     position: absolute;
-    left: 0px; /* Move container outside the main logo container */
+    left: 0px; 
     width: 200px;
     height: 400px;
   }
   
   .fog {
     position: absolute;
-    opacity: 1; /* Optional: make fog slightly transparent */
+    opacity: 1; 
   }
   
-  /* Use nth-child to offset each fog cloud */
   .fog:nth-child(1) { top: 270px; left: 354px; width: 100%; }
   .fog:nth-child(2) { top: 230px; left: 426.5px; width: 60%; }
   .fog:nth-child(3) { top: 160px; left: 375.5px; width: 87%; }
@@ -49,14 +48,14 @@
   
   .fog_container_right {
     position: absolute;
-    left: 0px; /* Move container outside the main logo container */
+    left: 0px; 
     width: 200px;
     height: 400px;
   }
 
   .fog_02 {
     position: absolute;
-    opacity: 1; /* Optional: make fog slightly transparent */
+    opacity: 1; 
   }
 
   .fog_02:nth-child(1) { top: 268px; left: 952px; width: 65%; }
@@ -68,11 +67,11 @@
   .fog, .fog_02 {
     position: absolute;
     filter: grayscale(100%);
-    transition: filter 0.2s ease-in-out; /* Quick, symmetrical transition */
+    transition: filter 0.2s ease-in-out;
   }
 
   .fog:hover, .fog_02:hover {
-    filter: grayscale(0%) !important; /* Force color on hover */
+    filter: grayscale(0%) !important;
     transition: filter 1s ease-in;
   }
 
